@@ -12,6 +12,8 @@ homebrew_installed_packages:
   - mas
   - tree
   - wget
+  - fontforge
+  - tmux
 
 homebrew_taps:
   - homebrew/core
@@ -25,6 +27,7 @@ homebrew_cask_apps:
   - virtualbox
   - macvim
   - hammerspoon
+  - flycut
   # - docker
   # - dropbox
 
