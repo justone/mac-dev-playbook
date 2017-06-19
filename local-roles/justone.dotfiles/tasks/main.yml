@@ -1,0 +1,14 @@
+---
+- name: Ensure dotfiles repository is cloned locally.
+  git:
+    repo: "{{ dotfiles_repo }}"
+    dest: "{{ dotfiles_repo_local_destination }}"
+    accept_hostkey: "{{ dotfiles_repo_accept_hostkey }}"
+  become: no
+
+- name: Ensure hammerspoon repository is cloned locally.
+  git:
+    repo: "{{ hammerspoon_repo }}"
+    dest: "{{ hammerspoon_repo_local_destination }}"
+    accept_hostkey: "{{ hammerspoon_repo_accept_hostkey }}"
+  become: no

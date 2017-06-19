@@ -1,76 +1,37 @@
 ---
 downloads: ~/.ansible-downloads/
 
+# uses my own dotfiles role
 configure_dotfiles: yes
-configure_sudoers: yes
-configure_terminal: yes
-configure_osx: yes
-
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
-dotfiles_files:
-  - .bash_profile
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+# not yet
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - chromedriver
-  - doxygen
-  - gettext
-  - gifsicle
-  - git
-  - go
-  - gpg
-  - hub
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
-  - node
-  - nvm
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
-  - pv
+  - mas
+  - tree
   - wget
-  - wrk
 
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
-  - homebrew/php
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
-  - dropbox
-  # - fing # Download link keeps getting changed, d'oh!
-  - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - limechat
-  - macvim
-  - nvalt
-  - sequel-pro
-  - skitch
-  - slack
-  - sublime-text
-  - transmit
-  - vagrant
+  - choosy
+  - resilio-sync
   - virtualbox
+  - macvim
+  - hammerspoon
+  # - docker
+  # - dropbox
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 803453959, name: "Slack" }
+  - { id: 443987910, name: "1Password - Password Manager and Secure Wallet" }
 mas_email: ""
 mas_password: ""
 

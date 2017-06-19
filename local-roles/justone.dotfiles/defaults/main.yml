@@ -1,0 +1,8 @@
+---
+dotfiles_repo: "endot.org@endot.org:dotfiles.git"
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: "~/.dotfiles"
+
+hammerspoon_repo: "https://github.com/justone/hammerspoon-config.git"
+hammerspoon_repo_accept_hostkey: yes
+hammerspoon_repo_local_destination: "~/.hammerspoon"
