@@ -28,13 +28,22 @@ homebrew_cask_apps:
   - macvim
   - hammerspoon
   - flycut
+  - dropbox
+  - alfred
+  - bartender
+  # manual
+  # - istat-menus
+  # - monosnap
+  # not yet
   # - docker
-  # - dropbox
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 803453959, name: "Slack" }
   - { id: 443987910, name: "1Password - Password Manager and Secure Wallet" }
+  - { id: 975937182, name: "Fantastical 2 - Calendar and Reminders" }
+  - { id: 540348655, name: "Monosnap" }
+  - { id: 488566438, name: "aText" }
 mas_email: ""
 mas_password: ""
 
