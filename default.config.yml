@@ -31,9 +31,13 @@ homebrew_cask_apps:
   - dropbox
   - alfred
   - bartender
+  - tunnelblick
+  - caffeine
+  - growlnotify
   # manual
   # - istat-menus
   # - monosnap
+  # - git-annex
   # not yet
   # - docker
 
@@ -44,6 +48,8 @@ mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2 - Calendar and Reminders" }
   - { id: 540348655, name: "Monosnap" }
   - { id: 488566438, name: "aText" }
+  - { id: 467939042, name: "Growl" }
+  - { id: 496437906, name: "Shush - Microphone Manager" }
 mas_email: ""
 mas_password: ""
 
@@ -71,3 +77,9 @@ pip_packages: []
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
+
+# TODO: manual steps
+# * set up hosts file
+# * mac stuff
+#   * change dictation trigger
+#   * make keyboard work with all controls
