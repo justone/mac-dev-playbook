@@ -34,6 +34,8 @@ homebrew_cask_apps:
   - tunnelblick
   - caffeine
   - growlnotify
+  - superduper
+  - plex-media-player
   # manual
   # - istat-menus
   # - monosnap
@@ -50,6 +52,8 @@ mas_installed_apps:
   - { id: 488566438, name: "aText" }
   - { id: 467939042, name: "Growl" }
   - { id: 496437906, name: "Shush - Microphone Manager" }
+  - { id: 867299399, name: "OmniFocus 2" }
+  - { id: 711830901, name: "OmniGraffle" }
 mas_email: ""
 mas_password: ""
 
@@ -83,3 +87,4 @@ post_provision_tasks: []
 # * mac stuff
 #   * change dictation trigger
 #   * make keyboard work with all controls
+#   * hot corners for screensaver
