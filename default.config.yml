@@ -36,6 +36,7 @@ homebrew_cask_apps:
   - growlnotify
   - superduper
   - plex-media-player
+  - spotify
   # manual
   # - istat-menus
   # - monosnap
@@ -88,3 +89,8 @@ post_provision_tasks: []
 #   * change dictation trigger
 #   * make keyboard work with all controls
 #   * hot corners for screensaver
+#   * escape key for caps lock
+#   * disable spotlight and finder search keymappings
+#   * disable search on external drives
+#   * use tap to click
+#   * three finger drag
