@@ -39,7 +39,6 @@ homebrew_cask_apps:
   - spotify
   # manual
   # - istat-menus
-  # - monosnap
   # - git-annex
   # not yet
   # - docker
