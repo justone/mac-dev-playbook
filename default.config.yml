@@ -14,6 +14,7 @@ homebrew_installed_packages:
   - wget
   - fontforge
   - tmux
+  - ctags
 
 homebrew_taps:
   - homebrew/core
@@ -37,11 +38,15 @@ homebrew_cask_apps:
   - superduper
   - plex-media-player
   - spotify
+  - iterm2
+  - docker
+  - tripmode
+  - doxie
+  - vlc
   # manual
   # - istat-menus
   # - git-annex
   # not yet
-  # - docker
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
@@ -93,3 +98,4 @@ post_provision_tasks: []
 #   * disable search on external drives
 #   * use tap to click
 #   * three finger drag
+#   * move dock to left side
